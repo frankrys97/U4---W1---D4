@@ -18,7 +18,7 @@ public class Volontario implements Lavoratori {
 
     @Override
     public void checkIn(LocalDateTime dateTime) {
-        System.out.println("Sono " + name + " , ho " + age + " anni, ho esperienza con " + CV + " e sono entrato alle " + dateTime.format(java.time.format.DateTimeFormatter.ofPattern("HH:mm:ss")));
+        System.out.println("Sono " + name + ", ho " + age + " anni, ho esperienza con " + CV + " e sono entrato alle " + dateTime.format(java.time.format.DateTimeFormatter.ofPattern("HH:mm:ss")));
     }
 
     public String getName() {

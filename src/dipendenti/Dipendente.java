@@ -40,7 +40,7 @@ public abstract class Dipendente implements Lavoratori {
 
     @Override
     public void checkIn(LocalDateTime dateTime) {
-        System.out.println("Sono " + name + " , ho uno stipendio di " + stipendio + " € e sono entrato alle " + dateTime.format(java.time.format.DateTimeFormatter.ofPattern("HH:mm:ss")));
+        System.out.println("Sono " + name + ", ho uno stipendio di " + stipendio + " € e sono entrato alle " + dateTime.format(java.time.format.DateTimeFormatter.ofPattern("HH:mm:ss")));
     }
 
     public int getMatricola() {
